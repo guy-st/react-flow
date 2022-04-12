@@ -1,4 +1,5 @@
 import ReactFlow from './container/ReactFlow';
+import _BaseEdge from './components/Edges/BaseEdge';
 
 export default ReactFlow;
 
@@ -41,5 +42,5 @@ export { default as useViewport } from './hooks/useViewport';
 export { default as useKeyPress } from './hooks/useKeyPress';
 export * from './hooks/useNodesEdgesState';
 export { useStore, useStoreApi } from './store';
-
+export const BaseEdge = _BaseEdge;
 export * from './types';
